@@ -1,0 +1,26 @@
+﻿<Application x:Class="Application"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:matD="http://materialdesigninxaml.net/winfx/xaml/themes"
+    xmlns:local="clr-namespace:DataGridExample"
+    xmlns:vm="clr-namespace:DataGridExample.ViewModel"
+    StartupUri="MainWindow.xaml">
+    
+    <Application.Resources>
+        
+        <ResourceDictionary>
+
+            <vm:MainWindowViewModel x:Key="MainWindowVM"/>
+
+            <ResourceDictionary.MergedDictionaries>
+                <!-- This is the current way to setup app's initial theme -->
+                <matD:BundledTheme BaseTheme="Light" PrimaryColor="Indigo" SecondaryColor="LightBlue" ColorAdjustment="{matD:ColorAdjustment}" />
+                <ResourceDictionary Source="pack://application:,,,/MaterialDesignThemes.Wpf;component/Themes/MaterialDesignTheme.Defaults.xaml" />
+                <ResourceDictionary Source="pack://application:,,,/Themes/Generic.xaml"/>
+            </ResourceDictionary.MergedDictionaries>
+            
+        </ResourceDictionary>
+        
+    </Application.Resources>
+    
+</Application>

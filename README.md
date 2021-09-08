@@ -6,9 +6,14 @@ are stored in the ScreenShots folder.
 
 With MaterialDesignThemes version 4.0 both Data Grids looks idenitical.
 
+<img width="441" alt="DialogWindow_4_0" src="https://raw.githubusercontent.com/DrCQ/MaterialDesign-DataGridExample/master/DataGridExample/ScreenShots/DialogWindow_4_0.PNG">
+
 With MaterialDesignThemes version 4.1 the DataGrid of the AboutWindow shows the first element of the DataGrid with "selected" rectange, which is wrong!
+
+<img width="441" alt="DialogWindow_4_0" src="https://raw.githubusercontent.com/DrCQ/MaterialDesign-DataGridExample/master/DataGridExample/ScreenShots/DialogWindow_4_1.PNG">
 
 Both DataGrids use the same Style and ControlTemplate stored in Themes/Generic.xaml file and the same ItemsSource from the ViewModel/MainWindowViewModel class.
 
 The basic code is written in XAML. The VB code is used for creation of DataGrid content and simple command to launch the AboutWindow usng the DialogHost.
 
+My belive is that something dealing with focus management has been changes between the version 4.0 and 4.1.

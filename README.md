@@ -16,6 +16,6 @@ With MaterialDesignThemes version 4.1 the DataGrid of the AboutWindow shows the 
 
 Both DataGrids use the same Style and ControlTemplate stored in Themes/Generic.xaml file and the same ItemsSource from the ViewModel/MainWindowViewModel class.
 
-The basic code is written in XAML. The VB code is used for creation of DataGrid content and simple command to launch the AboutWindow usng the DialogHost.
+The basic code is written in XAML. The VB code is used for the creation of DataGrid content and a simple command to launch the AboutWindow uisng the DialogHost.
 
 My belive is that something dealing with focus management has been changes between the version 4.0 and 4.1.

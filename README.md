@@ -10,7 +10,7 @@ With MaterialDesignThemes version 4.0 both DataGrids looks idenitical.
 
 <img width="441" alt="DialogWindow_4_0" src="https://raw.githubusercontent.com/DrCQ/MaterialDesign-DataGridExample/master/DataGridExample/ScreenShots/DialogWindow_4_0.PNG">
 
-With MaterialDesignThemes version 4.1 the DataGrid of the AboutWindow shows the first element of the DataGrid with "selected" rectange, which is wrong!
+With MaterialDesignThemes version 4.1 the DataGrid of the AboutWindow shows the first element of the DataGrid with a "selected" rectange, which is wrong!
 
 <img width="441" alt="DialogWindow_4_0" src="https://raw.githubusercontent.com/DrCQ/MaterialDesign-DataGridExample/master/DataGridExample/ScreenShots/DialogWindow_4_1.PNG">
 

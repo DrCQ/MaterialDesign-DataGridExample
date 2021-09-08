@@ -1,7 +1,7 @@
 # MaterialDesign-DataGridExample
 This small application shows differences in appeareance of the DataGrid content for MaterialDesignThemes version 4.0 and 4.1.
 The MainWindow.xaml contains one DataGrid instance showing static content located in the ViewModel/MainWindowViewModel.vb class. Pressing the "ShowWindow" button in the MainWindow 
-launches an AboutWindow.xaml using also an DataGrid using the same Style as in the MainWindow. Screen Shots from MainWindow as well as from MainWindow with launched AboutWindow 
+launches an AboutWindow.xaml using also an DataGrid using the same Style as in the MainWindow. Screenshots from MainWindow as well as from MainWindow with launched AboutWindow 
 are stored in the Screenshots folder.
 
 With MaterialDesignThemes version 4.0 both Data Grids looks idenitical.

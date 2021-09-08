@@ -4,7 +4,7 @@ The MainWindow.xaml contains one DataGrid instance showing static content locate
 launches an AboutWindow.xaml using also an DataGrid using the same Style as in the MainWindow. Screenshots from MainWindow as well as from MainWindow with launched AboutWindow 
 are stored in the Screenshots folder.
 
-With MaterialDesignThemes version 4.0 both Data Grids looks idenitical.
+With MaterialDesignThemes version 4.0 both DataGrids looks idenitical.
 
 <img width="441" alt="DialogWindow_4_0" src="https://raw.githubusercontent.com/DrCQ/MaterialDesign-DataGridExample/master/DataGridExample/ScreenShots/MainWindow_4_0.PNG">
 
